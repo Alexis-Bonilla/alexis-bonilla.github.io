@@ -1,588 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="StyleSheet" href="./estilos.css" type="text/css" media="screen">
 
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	
-<link  rel="icon"   href="resume.png" type="image/png" />
     <title>Hoja de vida</title>
 
 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-
-
-
+    <!-- Iconos -->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Fuentes de google-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
 
 
 
+    <!-- Barra de navegación-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#acercade">
+            <span class="d-block d-lg-none">Alexis Bonilla</span>
 
-    <div class="divPrincipal">
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="foto.jpg" alt="" /></span>
 
-
-
-        <div class="divEmailPadre">  
-            <div class="divEmail">
-                
-           
-                <img class="icono" src="email.png" >
-                <h2 class= "textoIcono">
-                    ALEXISBONILLA@OUTLOOK.ES
-                </h2>
-
-
-            </div>
-
-            <div class="divTelefono">
-                <img class="icono" src="telefono.png" >
-                <h2 class= "textoIcono">
-                    +(57) (322) 622 9437
-                </h2>
-
-
-            </div>
-
-            <div class="divDireccion">
-                <img class="icono" src="direccion.png" >
-                <h2 class= "textoIcono">
-                    Cll 73#2BN-52
-                </h2>
-
-            </div>
-
-
-
-
-
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#acercade">Acerca de mi</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#educacion">Educación</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#habilidades">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#intereses">Intereses</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reconocimientos">Reconocimientos</a></li>
+            </ul>
         </div>
-<div class="contenedorBody">
+    </nav>
 
-    <div  class="divNombreYFoto">
-        <div class="divFoto">
-            <img class="foto" src="foto.jpg" >
 
-        </div>
-        
-
-        <div class="contenedorNombre">
-
-            <div class="nombreCompleto">
-                <div class="divPrimerNombre">
-                    <h1 class="primerNombre" >  Alexis  </h1>
-                    
-            
+    <!-- Contenido-->
+    <div class="container-fluid p-0">
+        <!-- Acerca de mi-->
+        <section class="resume-section" id="acercade">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Alexis
+                    <span class="text-primary">Bonilla</span>
+                </h1>
+                <div class="subheading mb-5">
+                    Calle 16 # 15-20 · (+ 57) 322 622 9437 ·
+                    <a href="mailto:name@email.com">alexisbonilla@outlook.es</a>
                 </div>
-                <div class="divSegundoNombre">
-                    <h1 class="segundoNombre">  BONILLA  </h1>
-    
+                <p class="lead mb-5">Soy estudiante de Ingeniería de Sistemas en la Universidad ICESI - Cali, cuyo propósito principal es aportar valor a la sociedad por medio del desarrollo de proyectos tecnológicos que incluyan software y nuevas tecnologías. Tengo conocimiento en cuanto al ciclo de vida del desarrollo del software y estoy en capacidad de crear los artefactos y el código necesario para el correcto análisis, diseño (detallado/arquitectónico) y construcción de soluciones web y de escritorio basadas en lenguajes como Java, C#, Html, Css y JavaScript. 
+                    Mi amplia formación en valores hacen de mí un excelente miembro y líder de equipo, en el cuál se puede confiar a la hora de desarrollar cualquier tipo de proyecto tecnológico. Además tengo habilidades de comunicación, trabajo bajo presión y liderazgo, claves para el funcionamiento de equipos de trabajo de desarrollo de software.
+                    </p>
+                <div class="social-icons">
+                    <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
+                    <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
                 </div>
+            </div>
+        </section>
+        <hr class="m-0" />
 
+        <!-- Educación-->
+        <section class="resume-section" id="educacion">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Educación</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Universidad ICESI</h3>
+                        <div class="subheading mb-3">Ingeniería de Sistemas</div>
+                        
+                        <p>Promedio: 4.2 / 5.0 (Noveno semestre)</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Enero 2017 - Diciembre 2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Servicio nacional de aprendizaje SENA</h3>
+                        <div class="subheading mb-3">Técnico en
+                            contabilización de operaciones contables y financieras
+                            </div>
+                        <p>Promedio: 4.5 / 5.0</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Enero 2014 - Enero 2016</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Habilidades-->
+        <section class="resume-section" id="habilidades">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Habilidades</h2>
+                <div class="subheading mb-3">Lenguajes de programación y herramientas</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <!-- <li class="list-inline-item"><i class="fab fa-angular"></i></li> -->
+                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                    <!-- <li class="list-inline-item"><i class="fab fa-sass"></i></li> -->
+                    <!-- <li class="list-inline-item"><i class="fab fa-less"></i></li> -->
+                    <!-- <li class="list-inline-item"><i class="fab fa-wordpress"></i></li> -->
+                    <!-- <li class="list-inline-item"><i class="fab fa-gulp"></i></li> -->
+                    <!-- <li class="list-inline-item"><i class="fab fa-grunt"></i></li> -->
+                    <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                </ul>
+                <div class="subheading mb-3">Flujo de trabajo</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Aplicaciones web y de escritorio con JAVA
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Pruebas unitarias y de integración
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Análisis y diseño de soluciones
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Desarrollo ágil mediante SCRUM
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Intereses-->
+        <section class="resume-section" id="intereses">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Intereses</h2>
+                <p class="mb-0">Deportes: Gimnasio, Kung Fu, Tiro al arco, Ultimate Freesbe</p>
+                <p class="mb-0"> Actividades Culturales: Piano, Coro, Técnica Vocal, Batería</p>
+                    <p class="mb-0"> Pasatiempos: Cantar, Hacer ejercicio, practicar piano, bailar.</p>
 
             </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Premios-->
+        <section class="resume-section" id="reconocimientos">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Reconocimientos</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Primer puesto en las eliminatorias olimpiadas internacionales de lógica y argumentación, octavo puesto a nivel mundial. I semestre
 
-            
-            <hr>
-    
-            <h2 class="cargo">Ingeniero de sistemas</h2>
-    
-        </div>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Cuadro de honor en todos los semestres presenciales.
 
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        3
+                        <sup>st</sup>
+                        Lugar en la maratón interna de programación  Universidad ICESI (2019)
+
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Becado ser Pilo Paga 3
+
+                    </li>
+                   
+                </ul>
+            </div>
+        </section>
     </div>
 
 
-    <div class="divBody">
-
-        <div class="divIzquierdo">
-            <div class="divExperienciaLaboral">
-                <div class="divTitulo">
-                    <img class="icono" src="experienciaLaboral.png" >
-                    <h2 class= "textoTitulo">
-                        EXPERIENCIA LABORAL
-                    </h2>
-
-                </div>
-                <hr>
-
-                <div class="divContenedorExperienciaLaboral">
-                    <div class="divContenedorEmpresa">
-                        <div class="divEmpresa">
-                            <h2 class="tituloOrganizacion">
-                                Unicef S.A
-                            </h2>
-                            <h2 class="duracionEmpresa">
-                                2000-2001
-                            </h2>
-
-
-                        </div>
-                        <div class="divEmpresa">
-                            <h2 class="tituloOrganizacion">
-                                Deloitte Inc
-                            </h2>
-                            <h2 class="duracionEmpresa">
-                                2001-2003
-                            </h2>
 
 
-                        </div>
-                        <div class="divEmpresa">
-                            <h2 class="tituloOrganizacion">
-                                Donatello S.A.S
-                            </h2>
-                            <h2 class="duracionEmpresa">
-                                2003-2008
-                            </h2>
 
 
-                        </div>
-                        <div class="divEmpresa">
-                            <h2 class="tituloOrganizacion">
-                                Universidad Icesi
-                            </h2>
-                            <h2 class="duracionEmpresa">
-                                2008-2021
-                            </h2>
 
 
-                        </div>
-                    </div>
-                    
-                    <!-- <div class="lineaVertical"></div> -->
-                    <hr width="1" size="400px">
 
 
-                    <div class="divContenedorParrafosEmpresa">
-                        <div class="divParrafoEmpresa">
-                            <p class="parrafo">
-                                Puesto
-                                <br>
-                                Desarrollador junior
-                            </p>
-                        </div>
-                        <div class="divParrafoEmpresa">
-                            <p class="parrafo">
-                                Puesto
-                                <br>
-                                Ingeniero de seguridad
-                            </p>
-                        </div>
-                        <div class="divParrafoEmpresa">
-                            <p class="parrafo">
-                                Puesto
-                                <br>
-                                Ingeniero desarrollador web
-                            </p>
-                        </div>
-                        <div class="divParrafoEmpresa">
-                            <p class="parrafo">
-                                Puesto
-                                <br>
-                                Ingeniero de software senior
-                            </p>
-                        </div>
 
 
-                    </div>
-                
-                    
 
 
 
 
-                </div>
 
 
-
-            </div>
-        
-
-            <div class="divInformacionAdicional">
-                <div class="divTitulo">
-                    <img class="icono" src="persona.png" >
-                    <h2 class= "textoTitulo">
-                        INFORMACIÓN ADICIONAL
-                    </h2>
-
-                </div>
-
-                <hr>
-
-                <div class="divTextoInformacionAdicional">
-                    <p class="parrafo">
-                        Becado ser pilo paga, monitor de álgebra, lógica y argumentacion, algoritmos y programación. Estudiante de maestría de gerencia de proyectos en la Universidad ICESI.
-
-
-                    </p>
-                </div>
-
-
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-        <div class="divDerecho">
-            <div class="divSeccionEducacion" >
-                <div class="divTitulo">
-                    <img class="icono" src="educacion.png" >
-                    <h2 class= "textoTitulo">
-                        EDUCACIÓN
-                    </h2>
-                </div>
-                <hr>
-
-                <div class="divTextoEducacion">
-                    <h2 class="tituloOrganizacion">
-                        Universidad ICESI
-                    </h2>
-
-                    <h2 class="tituloGraduando">
-                        Título
-                    </h2>
-                    <p class="parrafo">
-                        Ingeniero de sistemas de Software
-                    </p>
-                    
-                    
-
-                </div>
-                <div class="divTextoEducacion">
-                    <h2 class="tituloOrganizacion">
-                        Universidad del Valle
-                    </h2>
-
-                    <h2 class="tituloGraduando">
-                        Título
-                    </h2>
-                    <p class="parrafo">
-                        Matemático aplicado
-                    </p>
-                    
-                </div>
-                <div class="divTextoEducacion">
-                    <h2 class="tituloOrganizacion">
-                        University of university of Massachusetts
-                    </h2>
-
-                    <h2 class="tituloGraduando">
-                        Título
-                    </h2>
-                    <p class="parrafo">
-                        
-                    Master's degree in administrative management
-                    </p>
-                    
-                </div>
-
-
-            </div>
-
-
-            <div class="divSeccionHabilidades">
-
-
-
-                <div class="divTitulo">
-                    <img class="icono" src="habilidades.png" >
-                    <h2 class= "textoTitulo">
-                        HABILIDADES
-                    </h2>
-                </div>
-                <hr>
-
-
-                <h3 class="tituloHabilidades">Habilidades</h3>
-
-                <div class="contenedorHabilidades">
-
-                    <div class="divHabilidad">
-
-                        <button class="botonAdministración" id="boton_admin">
-                            Administración
-
-
-                        </button>
-                       
-
-                        <div class="contenedorCirculos">
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-
-                        </div>
-
-                        <div class="modal-container" id="modal_container_admin" >
-                            <div class="modalAdmin">
-                               
-
-                                <P class="parrafo">
-                                    Excelentes habilidades para la administración de empresas
-                                </P>
-                            </div>
-
-                        </div>
-
-                       
-
-                </div>
-                <div class="divHabilidad">
-                    <button class="botonGestionProyectos"id="boton_gestion_proyectos">
-                        Gestion de proyectos
-
-
-                    </button>
-
-                    
-
-
-                        <div class="contenedorCirculos">
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <!-- <div class="circulo"></div> -->
-
-                        </div>
-
-                        <div class="modal-container" id="modal_container_gestionProyectos" >
-                            <div class="modalGestionProyectos">
-                               
-
-                                <P class="parrafo">
-                                    Buen desempeño al gestionar proyectos de software
-                                </P>
-                            </div>
-
-                        </div>
-                </div>
-                <div class="divHabilidad">
-                         <button class="botonContabilidad" id="boton_contabilidad">
-                        Contabilidad
-
-
-                        </button>
-                        
-
-                        <div class="contenedorCirculos">
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <!-- <div class="circulo"></div>
-                            <div class="circulo"></div> -->
-
-                        </div>
-
-                        <div class="modal-container" id="modal_container_contabilidad" >
-                            <div class="modalContabilidad">
-                               
-
-                                <P class="parrafo">
-                                    Habilidades básicas para llevar la contabilidad de una organización, hay amplio margen de mejora
-                                </P>
-                            </div>
-
-                        </div>
-                </div>
-                <div class="divHabilidad">
-                    <button class="botonGestionCambio"id="boton_gestion_cambio">
-                        Gestión del cambio
-
-
-                        </button>
-
-                        
-                        <div class="contenedorCirculos">
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-
-                        </div>
-
-                        <div class="modal-container" id="modal_container_gestionCambio" >
-                            <div class="modalGestionCambio">
-                           
-
-                                <P class="parrafo">
-                                    Lider carismático que propicia un ambiente de cambio para bien de la organización
-                                </P>
-                            </div>
-
-                        </div>
-                </div>
-
-                </div>
-
-                <h3 class="tituloHabilidades">Personalidad</h3>
-
-                <div class="contenedorHabilidades">
-                    <div class="divHabilidad">
-                        <button class="botonLiderazgo"id="boton_liderazgo">
-                            Liderazgo
-
-
-                            </button>
-                           
-
-                        <div class="contenedorCirculos">
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-
-                        </div>
-
-                        <div class="modal-container" id="modal_container_liderazgo" >
-                            <div class="modalLiderazgo">
-                              
-
-                                <P class="parrafo">
-                                   Lider carismático capaz de llevar a un gran éxito a cualquier organización de sofware
-                                </P>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divHabilidad">
-                        <button class="botonCreativo"id="boton_creativo">
-                            Creativo
-
-
-                            </button>
-                           
-
-                        <div class="contenedorCirculos">
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <!-- <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div> -->
-
-                        </div>
-
-                        <div class="modal-container" id="modal_container_creativo" >
-                            <div class="modalCreativo">
-                              
-
-                                <P class="parrafo">
-                                    Poco creativo, se desempeña mejor en cargos en los que se innova poco
-                                </P>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divHabilidad">
-                        <button class="botonOrganizado"id="boton_organizado">
-                            Organizado
-
-
-                            </button>
-                           
-
-                        <div class="contenedorCirculos">
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-
-                        </div>
-
-                        <div class="modal-container" id="modal_container_organizado" >
-                            <div class="modalOrganizado">
-                              
-
-                                <P class="parrafo">
-                                    Bastante organizado en todos sus proyectos, buen manejo del tiempo y del trabajo bajo presión
-                                </P>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="divHabilidad">
-                        <button class="botonSerio"id="boton_serio">
-                            Serio
-
-
-                            </button>
-                            
-
-                        <div class="contenedorCirculos">
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <div class="circulo"></div>
-                            <!-- <div class="circulo"></div> -->
-
-                        </div> 
-
-                        <div class="modal-container" id="modal_container_serio" >
-                            <div class="modalSerio">
-                                
-
-                                <P class="parrafo">
-                                    Buen nivel de responsabilidad y compromiso a la hora de trabajar en equipo o en proyectos individuales
-                                </P>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
-                
-
-
-                </div>
-
-                
-
-                    
-
-          
-
-
-
-            </div>
-
-
-
-        </div>
-
-
-
-
-
-    </div>
-
-</div>
-        
-
-
-        <div class="divCierre"></div>
-
-
-    
-    </div>
-    <script src="./main.js" language="javascript" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 </body>
+
 </html>
